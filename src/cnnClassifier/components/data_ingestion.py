@@ -6,7 +6,6 @@ from src.cnnClassifier.utils.common import get_size
 from src.cnnClassifier.entity.config_entity import (DataIngestionConfig)
 
 
-
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config

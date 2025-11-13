@@ -50,3 +50,126 @@ TypeError: DataIngestionTrainingPipeline.main() missing 1 required positional ar
 [2025-11-13 15:56:55,170: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-11-13 18:08:53,922: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:08:53,939: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:08:53,942: INFO: common: created directory at: artifacts]
+[2025-11-13 18:09:43,289: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:09:43,292: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:09:43,293: INFO: common: created directory at: artifacts]
+[2025-11-13 18:09:43,294: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-13 18:10:09,556: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-13 18:10:09,682: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-13 18:46:05,852: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 18:46:05,854: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:46:05,855: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:46:05,856: INFO: common: created directory at: artifacts]
+[2025-11-13 18:46:05,856: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 18:46:31,300: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 18:46:31,301: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:46:31,302: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:46:31,302: INFO: common: created directory at: artifacts]
+[2025-11-13 18:46:31,303: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 18:49:04,159: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 18:49:04,163: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:49:04,164: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:49:04,165: INFO: common: created directory at: artifacts]
+[2025-11-13 18:49:04,165: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 18:55:18,536: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:55:18,537: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:55:18,538: INFO: common: created directory at: artifacts]
+[2025-11-13 18:55:18,539: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-13 18:55:18,540: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 18:55:47,385: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 18:55:49,896: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 18:55:49,898: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:55:49,899: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:55:49,899: INFO: common: created directory at: artifacts]
+[2025-11-13 18:55:49,900: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 18:56:43,163: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 18:56:43,166: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:56:43,167: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:56:43,169: INFO: common: created directory at: artifacts]
+[2025-11-13 18:56:43,169: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 18:58:45,077: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 18:58:45,080: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 18:58:45,083: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 18:58:45,084: INFO: common: created directory at: artifacts]
+[2025-11-13 18:58:45,084: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 19:02:34,650: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 19:02:34,652: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 19:02:34,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 19:02:34,655: INFO: common: created directory at: artifacts]
+[2025-11-13 19:02:34,655: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 19:03:15,560: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 19:03:15,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 19:03:15,571: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 19:03:15,573: INFO: common: created directory at: artifacts]
+[2025-11-13 19:03:15,581: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 19:03:23,196: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 19:03:23,199: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 19:03:23,200: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 19:03:23,200: INFO: common: created directory at: artifacts]
+[2025-11-13 19:03:23,200: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
