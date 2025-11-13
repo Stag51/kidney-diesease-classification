@@ -173,3 +173,48 @@ Traceback (most recent call last):
     data_ingestion_config = config.get_data_ingestion_config()
                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 19:06:31,190: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 19:06:31,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 19:06:31,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 19:06:31,194: INFO: common: created directory at: artifacts]
+[2025-11-13 19:06:31,194: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 19:16:07,045: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 19:16:07,046: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 19:16:07,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 19:16:07,049: INFO: common: created directory at: artifacts]
+[2025-11-13 19:16:07,050: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-11-13 19:17:46,094: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 19:17:46,097: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 19:17:46,098: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 19:17:46,099: INFO: common: created directory at: artifacts]
+[2025-11-13 19:17:46,100: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-13 19:17:46,100: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 19:18:14,589: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 19:18:15,391: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-11-13 19:18:15,391: INFO: main: *******************]
+[2025-11-13 19:18:15,392: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-11-13 19:18:15,395: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 19:18:15,397: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 19:18:15,398: INFO: common: created directory at: artifacts]
+[2025-11-13 19:18:15,399: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-13 19:18:16,010: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-13 19:18:16,170: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-13 19:18:16,281: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
