@@ -1,0 +1,52 @@
+[2025-11-13 15:33:14,614: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 15:33:14,618: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 15:33:14,619: INFO: common: created directory at: artifacts]
+[2025-11-13 15:33:14,621: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-13 15:33:14,622: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 15:33:44,508: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 15:34:11,849: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 15:34:11,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 15:34:11,852: INFO: common: created directory at: artifacts]
+[2025-11-13 15:34:11,852: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-13 15:34:11,854: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 15:34:41,469: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 15:51:34,716: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 15:51:34,716: ERROR: main: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 10, in <module>
+    obj.main()
+TypeError: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self'
+[2025-11-13 15:51:46,339: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 15:51:46,340: ERROR: main: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 10, in <module>
+    obj.main()
+TypeError: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self'
+[2025-11-13 15:52:41,364: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 15:52:41,364: ERROR: main: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 10, in <module>
+    obj.main()
+TypeError: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self'
+[2025-11-13 15:53:42,472: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 15:53:42,472: ERROR: main: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\AISpr\Documents\End to End Projects\kidney-diesease-classification\main.py", line 10, in <module>
+    obj.main()
+TypeError: DataIngestionTrainingPipeline.main() missing 1 required positional argument: 'self'
+[2025-11-13 15:56:01,290: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 15:56:01,291: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 15:56:01,292: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 15:56:01,292: INFO: common: created directory at: artifacts]
+[2025-11-13 15:56:01,293: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-13 15:56:01,293: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 15:56:25,618: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-13 15:56:25,619: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 15:56:25,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 15:56:25,620: INFO: common: created directory at: artifacts]
+[2025-11-13 15:56:25,621: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-13 15:56:25,621: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 15:56:54,068: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-13 15:56:55,170: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
